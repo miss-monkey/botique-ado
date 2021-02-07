@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+
+    # other
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -58,6 +61,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'botique.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
